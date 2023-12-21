@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.credentialmanager.sample
+package com.tp.dev.cloudsample
 
 import android.content.Context
 import android.os.Bundle
@@ -22,7 +22,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.google.credentialmanager.sample.databinding.FragmentMainBinding
+import com.tp.dev.cloudsample.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {
 

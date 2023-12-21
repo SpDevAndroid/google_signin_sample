@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.credentialmanager.sample
+package com.tp.dev.cloudsample
 
 import android.content.Context
 import android.content.SharedPreferences

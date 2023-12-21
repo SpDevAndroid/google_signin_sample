@@ -30,10 +30,10 @@ def keystoreProperties = new Properties()
 keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
 android {
-    namespace 'com.google.credentialmanager.sample'
+    namespace 'com.tp.dev.cloudsample'
     compileSdk 34
     defaultConfig {
-        applicationId "com.google.credentialmanager.sample"
+        applicationId "com.tp.dev.cloudsample"
         minSdk 21
         targetSdk 34
         versionCode 1
@@ -110,5 +110,5 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
     implementation "androidx.lifecycle:lifecycle-runtime-compose:2.6.2"
-
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
 }

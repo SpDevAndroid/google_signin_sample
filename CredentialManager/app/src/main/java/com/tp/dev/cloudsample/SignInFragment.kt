@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.credentialmanager.sample
+package com.tp.dev.cloudsample
 
 import android.content.Context
 import android.os.Bundle
@@ -31,7 +31,7 @@ import androidx.credentials.PasswordCredential
 import androidx.credentials.PublicKeyCredential
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.google.credentialmanager.sample.databinding.FragmentSignInBinding
+import com.tp.dev.cloudsample.databinding.FragmentSignInBinding
 import kotlinx.coroutines.launch
 
 class SignInFragment : Fragment() {

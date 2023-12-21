@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.credentialmanager.sample
+package com.tp.dev.cloudsample
 
 import android.content.Context
 import android.os.Bundle
@@ -39,7 +39,7 @@ import androidx.credentials.exceptions.CreateCredentialUnknownException
 import androidx.credentials.exceptions.publickeycredential.CreatePublicKeyCredentialDomException
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.google.credentialmanager.sample.databinding.FragmentSignUpBinding
+import com.tp.dev.cloudsample.databinding.FragmentSignUpBinding
 import kotlinx.coroutines.launch
 import java.security.SecureRandom
 
