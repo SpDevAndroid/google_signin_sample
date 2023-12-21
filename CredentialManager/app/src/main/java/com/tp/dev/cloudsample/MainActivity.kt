@@ -68,6 +68,9 @@ class MainActivity : AppCompatActivity(), MainFragmentCallback, HomeFragmentCall
     }
 
     private val tag ="GOOGLE_SIGN_IN"
+
+
+    /** Sample method to initiate Google sign in **/
     private fun googleSignInSample() {
 
         // Configure sign-in to request the user's ID, email address, and basic
